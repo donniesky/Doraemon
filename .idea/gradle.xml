@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/gadgets/core" name="core">
+                <projects>
+                  <project path="$PROJECT_DIR$/gadgets/core" />
+                  <project path="$PROJECT_DIR$/gadgets/core/app" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/gadgets/compose" name="compose">
+                <projects>
+                  <project path="$PROJECT_DIR$/gadgets/compose" />
+                  <project path="$PROJECT_DIR$/gadgets/compose/app" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/gadgets/flutter" name="flutter">
+                <projects>
+                  <project path="$PROJECT_DIR$/gadgets/flutter" />
+                  <project path="$PROJECT_DIR$/gadgets/flutter/app" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/gadgets/react-native" name="react-native">
+                <projects>
+                  <project path="$PROJECT_DIR$/gadgets/react-native" />
+                  <project path="$PROJECT_DIR$/gadgets/react-native/app" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/gadgets/bluetooth" name="bluetooth">
+                <projects>
+                  <project path="$PROJECT_DIR$/gadgets/bluetooth" />
+                  <project path="$PROJECT_DIR$/gadgets/bluetooth/advertisement" />
+                  <project path="$PROJECT_DIR$/gadgets/bluetooth/app" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="Embedded JDK" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/gadgets/bluetooth" />
+            <option value="$PROJECT_DIR$/gadgets/bluetooth/advertisement" />
+            <option value="$PROJECT_DIR$/gadgets/bluetooth/app" />
+            <option value="$PROJECT_DIR$/gadgets/compose" />
+            <option value="$PROJECT_DIR$/gadgets/compose/app" />
+            <option value="$PROJECT_DIR$/gadgets/core" />
+            <option value="$PROJECT_DIR$/gadgets/core/app" />
+            <option value="$PROJECT_DIR$/gadgets/flutter" />
+            <option value="$PROJECT_DIR$/gadgets/flutter/app" />
+            <option value="$PROJECT_DIR$/gadgets/react-native" />
+            <option value="$PROJECT_DIR$/gadgets/react-native/app" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,18 @@
+<resources>
+  <!-- TODO: Remove or change this placeholder text -->
+  <string name="hello_blank_fragment">Hello blank fragment</string>
+  <string name="action_settings">Settings</string>
+  <string name="broadcast_device">Broadcast Device</string>
+  <string name="already_started">Already started.</string>
+  <string name="data_too_large">Data too large.</string>
+  <string name="not_supported">Feature not supported.</string>
+  <string name="inter_err">Internal error.</string>
+  <string name="loc_req_title">Need location access for Bluetooth Scanning</string>
+  <string name="loc_req_msg">Grant location access to discover nearby Bluetooth devices</string>
+  <string name="okay">Okay</string>
+  <string name="loc_req_denied_msg">Cannot scan for Bluetooth because location permission was denied</string>
+  <string name="bt_scanning">already scanning</string>
+  <string name="bt_notif_title">Advertising Device via Bluetooth</string>
+  <string name="bt_notif_txt">This device is discoverable to others nearby</string>
+  <string name="refresh">Refresh</string>
+</resources>

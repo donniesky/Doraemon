@@ -1,0 +1,22 @@
+pluginManagement {
+  repositories {
+    gradlePluginPortal()
+    google()
+    mavenCentral()
+  }
+}
+dependencyResolutionManagement {
+  repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+  repositories {
+    google()
+    mavenCentral()
+  }
+}
+rootProject.name = "Doraemon"
+include ':app'
+
+includeBuild("gadgets/core")
+includeBuild("gadgets/compose")
+includeBuild("gadgets/flutter")
+includeBuild("gadgets/react-native")
+includeBuild("gadgets/bluetooth")
